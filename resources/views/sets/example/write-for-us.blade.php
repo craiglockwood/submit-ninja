@@ -9,7 +9,8 @@
                 <div class="panel-body">
                     <p>We have committed to blind submissions, meaning that all submissions will come to us with no indication of the authors gender, race, Twitter following, ethnicity or beliefs. We will simply judge all submissions on the merit of the content. We think this is the best way to evaluate new work without any risk of accidental prejudice.</p>
                     <p>When you submit this form, we will give you a web page link where you can check for a response from us completely anonymously. If you'd like us to have an email address too, that's great, but there's absolutely no obligation to supply that - it's completely up to you. If you want to give us an email address, we'll let you know when we've posted a reply - otherwise just check your custom link regularly. </p>
-                    <form method="POST" action="">
+                    <form method="POST" action="/set/example">
+                        {{ csrf_field() }}
                         <h4>Your Email Address</h4>
                         <div class='form-group'>
                             <p>We only use this to give you updates about your submission - Five Simple Steps will never see this email address.</p>
@@ -54,9 +55,9 @@
 
                         <div class='form-group'>
                             <p>To which of our book formats do you feel your manuscript is best suited?</p>
-                            <label for'book_format'><input type='radio' name='book_format'> Fast Read</label> <br />
-                            <label for'book_format'><input type='radio' name='book_format'> Handbook</label> <br />
-                            <label for'book_format'><input type='radio' name='book_format'> Practical Guide</label>
+                            <label for'book_format'><input type='radio' name='book_format' value='fast-read'> Fast Read</label> <br />
+                            <label for'book_format'><input type='radio' name='book_format' value='handbook'> Handbook</label> <br />
+                            <label for'book_format'><input type='radio' name='book_format' value='practical-guide'> Practical Guide</label>
                         </div>
 
                         <div class='form-group'>

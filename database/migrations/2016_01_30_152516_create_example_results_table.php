@@ -14,6 +14,14 @@ class CreateExampleResultsTable extends Migration
     {
         Schema::create('example_results', function (Blueprint $table) {
             $table->increments('id');
+            $table->longtext('reasons_for_writing');
+            $table->longtext('proposed_title');
+            $table->longtext('book_summary');
+            $table->longtext('detailed_outline');
+            $table->string('sample-file')->nullable();
+            $table->longtext('reader_understand');
+            $table->string('book_format');
+            $table->longtext('additional_details');
             $table->timestamps();
         });
     }

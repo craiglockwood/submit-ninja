@@ -31,4 +31,5 @@ Route::group(['middleware' => 'web'], function () {
 
     Route::get('/home', 'HomeController@index');
     Route::get('/set/example', 'ExampleSetController@index');
+    Route::post('/set/example', 'ExampleSetController@store');
 });
