@@ -18,11 +18,9 @@ class RegistrationTest extends TestCase
             ->type('test123', 'password_confirmation')
             ->press('Register')
             ->seePageIs('/home')
-            ->see('David')
-            ->see('You are logged in!');
+            ->see('David');
 
 
-        $this->seeInDatabase('users', ['email' => 'david@bidstar.co.uk']);
-
+        $this->seeInDatabase('users', ['email' => 'david@bidstar.co.uk', 'role_id' => 2]);
     }
 }
