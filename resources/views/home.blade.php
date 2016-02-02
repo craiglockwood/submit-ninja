@@ -18,7 +18,7 @@
                         </div>
                         <div class='media-body'>
                             <a href='/set/example'><h4 class='media-heading'>Five Simple Steps - Blind Book Submission</h4></a>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus cursus id ligula id consequat. Vivamus aliquam massa eu fringilla pellentesque. Quisque mattis leo sed tortor tempor lobortis. Integer id odio varius, ullamcorper erat at, finibus lorem. Mauris suscipit, tellus et ultricies cursus, est nisl blandit libero, non fermentum massa metus non est.</p>
+                            <p>We have committed to blind submissions, meaning that all submissions will come to us with no indication of the authors gender, race, Twitter following, ethnicity or beliefs. We will simply judge all submissions on the merit of the content. We think this is the best way to evaluate new work without any risk of accidental prejudice.</p>
                         </div>
                         <div class='media-footer' style='text-align: center'>
                             <p>Shareable URL</p>
